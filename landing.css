@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'inter';
+    src: url('inter-variable.ttf');
+    font-weight: 100 900; /* Range from Thin (100) to Black (900) */
+    font-style: normal; /* Normal style */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all {
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+    
+}
+
+.footer {
+    width: 100%;
+    gap: 0.05em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    word-wrap: break-word; /* Allow long words to break onto the next line */
+    overflow-wrap: break-word; /* Ensure compatibility with different browsers */
+}
+
+h1 {
+    font-family: 'inter';
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+h2 {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+p {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+button {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    border-radius: 14px;
+    letter-spacing: -0.02em;
+    background-color: white;
+    border: 1px solid #FF85F4;
+    padding-left: 2em;
+    padding-right: 2em;
+    cursor: pointer;
+}
+
+.vis {
+    width: 100%;
+    border-radius: 1.4em;
+    border: 1px solid rgba(46, 46, 46, 0.10);
+}
+
+@media (max-width: 768px) {
+
+
+.all {
+    width: 90%;
+}
+
+    .centre {
+        width: 90%;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+    }
+
+
+    .vis {
+        width: 80%;
+        border-radius: 1.4em;
+        border: 1px solid rgba(46, 46, 46, 0.10);
+    }
+
+}
+

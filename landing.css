@@ -27,15 +27,13 @@ body {
 
 .footer {
     width: 100%;
-    gap: 0.05em;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    align-self: stretch;
     margin-bottom: 1em;
     margin-right: 0.5em;
     margin-left: 0.5em;
-    word-wrap: break-word; /* Allow long words to break onto the next line */
-    overflow-wrap: break-word; /* Ensure compatibility with different browsers */
 }
 
 h1 {
@@ -60,10 +58,20 @@ p {
     color: #121212;
     text-align: center;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 0.8em;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em;
+}
+
+a {
+    color: #121212;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1em;
 }
 
 button {

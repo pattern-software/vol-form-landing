@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'inter';
+    src: url('inter-variable.ttf');
+    font-weight: 100 900; /* Range from Thin (100) to Black (900) */
+    font-style: normal; /* Normal style */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-bottom: 10em;
+
+}
+
+.section {
+    gap: 1em;
+}
+
+.sub-section {
+    gap: 0em;
+}
+
+h1 {
+    font-family: 'inter';
+    font-size: 2em;
+    line-height: 2.2em;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #191919;
+}
+
+h2 {
+    font-family: 'inter';
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: #191919;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p {
+    font-family: 'inter';
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #1919197e;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+li {
+    font-family: 'inter';
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: #1919197e;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 1.2em;
+}
+
+
